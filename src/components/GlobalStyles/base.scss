@@ -1,0 +1,93 @@
+@import './cssReset.scss';
+@import './_variables.scss';
+
+:root {
+    --text-contrast: #d1d5db;
+    --primary: #29fd53;
+    --bgc: #282c34;
+    --text: #f0ffff;
+    --header: #374151;
+    --blur: rgb(0, 0, 0);
+    --bgc-reverse: #b4b4b4;
+    --board: #292524;
+    --screen-board: #aca9a9;
+    --opacity: 0.7;
+    --main-bar: #3a3634;
+}
+
+@mixin darkmode {
+    --text-contrast: #000;
+    --primary: #a3653f;
+    --bgc: #f0ffff;
+    --text: #000;
+    --header: #475569;
+    --blur: rgb(255, 255, 255);
+    --bgc-reverse: #555;
+    --board: #333;
+    --screen-board: #777;
+    --opacity: 0.7;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: overlay;
+    // overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    &.darkmode {
+        @include darkmode();
+    }
+
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    text-rendering: optimizeSpeed;
+    color: var(--text);
+    background-color: var(--bgc);
+}
+
+ul {
+    list-style: none;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.headerLayout {
+    height: 45px;
+    width: 100%;
+    background: var(--header);
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.overlay {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    background: var(--blur);
+    opacity: var(--opacity);
+}

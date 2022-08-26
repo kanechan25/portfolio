@@ -1,0 +1,82 @@
+@import '../../../GlobalStyles/base.scss';
+
+.leftContainer {
+    .nameContainer {
+        width: 100%;
+        margin: 8px 8px 30px 8px;
+        padding-right: 8px;
+        font-family: 'Nova Mono', monospace;
+        .subText.top {
+            font-size: 20px;
+            text-align: left;
+            margin: 0;
+            font-weight: 600;
+        }
+        .homeName {
+            font-size: 45px;
+            text-align: center;
+            margin: 0;
+            span {
+                font-size: 24px;
+            }
+        }
+        .subText.bottom {
+            font-size: 20px;
+            text-align: right;
+            margin: 0;
+            padding-right: 6px;
+            font-weight: 600;
+        }
+    }
+    .contentContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .portrait-home {
+            height: 100px;
+            border-radius: 50%;
+        }
+        .info {
+            margin-left: 30px;
+            font-family: 'Ubuntu', sans-serif;
+            .email {
+                color: var(--text);
+                font-style: italic;
+            }
+            .media {
+                display: flex;
+                align-items: center;
+                margin-top: 14px;
+                .mediaIcon {
+                    margin-right: 8px;
+                    width: 35px;
+                    height: 35px;
+                }
+                .mediaIcon.linkedIn {
+                    align-self: center;
+                    cursor: pointer;
+                    color: #0e76a8;
+                }
+                .mediaIcon.github {
+                    color: #000;
+                    border-radius: 50%;
+                    background-color: #fff;
+                }
+                .mediaIcon.youtube {
+                    padding-top: 1px;
+                }
+                .resume {
+                    text-decoration: none;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: bold !important;
+                    color: var(--text);
+                    border: 1px solid var(--text);
+                    padding: 7px 9px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

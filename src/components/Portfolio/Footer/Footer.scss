@@ -1,0 +1,36 @@
+@import '../../GlobalStyles/base.scss';
+
+.footer.container {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: right;
+    -webkit-justify-content: right;
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+}
+.footer-wrapper {
+    margin: 6px 0px;
+    margin-top: 50px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: right;
+    -webkit-justify-content: right;
+    .copyright {
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        max-width: 120px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer.container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 100px;
+    }
+}
