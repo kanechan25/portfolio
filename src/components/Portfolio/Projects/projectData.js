@@ -77,7 +77,7 @@ export const projectData = [
             frameworkData[1],
             frameworkData[2],
             frameworkData[3],
-            frameworkData[4],
+            //frameworkData[4],
             frameworkData[5],
             databaseData[1],
             relevantData[0],
