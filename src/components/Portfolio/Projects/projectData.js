@@ -64,9 +64,9 @@ export const projectData = [
             'React Function components',
             'Responsive web design',
             'Log in and Sign out',
-            'Searching Engine',
-            'Swipe and autoplay videos',
-            'Interact with videos : like, comment, share',
+            'Search Engine',
+            'Multi-tab Inbox',
+            'Swipe and interact with videos : like, comment, share',
         ],
         subTech: [],
         tech: [
