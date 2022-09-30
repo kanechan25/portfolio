@@ -57,7 +57,7 @@ export const exprn2021 = {
 export const exprn2022 = {
     company: 'T&T Design',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png',
-    time: 'Apr 2021 - Sep 2022',
+    time: 'Mar 2021 - Sep 2022',
     exprn: [
         {
             project: 'Health care app',
