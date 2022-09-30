@@ -1,7 +1,7 @@
 export const exprn2020 = {
     company: 'NDC Consulting',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ndc.png',
-    time: 'Feb 2019 - Mar 2020',
+    time: 'Feb 2019 - Feb 2020',
     exprn: [
         {
             project: 'BIM CUBIC',
@@ -57,7 +57,7 @@ export const exprn2021 = {
 export const exprn2022 = {
     company: 'T&T Design',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png',
-    time: 'Apr 2021 - Aug 2022',
+    time: 'Apr 2021 - Sep 2022',
     exprn: [
         {
             project: 'Health care app',
@@ -68,17 +68,17 @@ export const exprn2022 = {
             ],
         },
         {
-            project: 'Research AWS',
-            role: [
-                'Full-stack Web Developer: ',
-                "Researching AWS and give out workflows to store company's data on AWS",
-            ],
-        },
-        {
             project: 'Other Website Projects',
             role: [
                 'Full-stack Web Developer: ',
                 'Programming websites by Reactjs, Redux, Nodejs, Expressjs, MongoDb, AWS...',
+            ],
+        },
+        {
+            project: 'Research AWS',
+            role: [
+                'Full-stack Web Developer: ',
+                "Researching AWS and give out workflows to store company's data on AWS",
             ],
         },
     ],
