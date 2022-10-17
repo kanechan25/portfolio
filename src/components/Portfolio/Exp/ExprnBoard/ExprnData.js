@@ -24,7 +24,7 @@ export const exprn2020 = {
 export const exprn2021 = {
     company: 'T&T Design',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png',
-    time: 'Mar 2020 - Mar 2021',
+    time: 'Mar 2020 - Nov 2020',
     exprn: [
         {
             project: 'BIM-5D Software',
@@ -57,7 +57,7 @@ export const exprn2021 = {
 export const exprn2022 = {
     company: 'T&T Design',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png',
-    time: 'Mar 2021 - Sep 2022',
+    time: 'Nov 2020 - Oct 2022',
     exprn: [
         {
             project: 'Health care app',
