@@ -9,14 +9,14 @@ button {
     background: transparent;
 }
 
-.animated-menu {
+.language-menu {
     // margin: $size-btn 0px $size-btn 0px;
-    .animated-navigation {
+    .language-navigation {
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        .animated-menuToggle {
+        .language-menuToggle {
             position: relative;
             width: $size-btn;
             height: $size-btn;
@@ -32,14 +32,14 @@ button {
             height: $size-btn;
             color: var(--bgc);
         }
-        .animated-menuToggle.active .main-icon {
+        .language-menuToggle.active .main-icon {
             transition: 0.3s;
             transform: rotate(30deg);
         }
-        .animated-menuToggle .main-icon {
+        .language-menuToggle .main-icon {
             transition: 0.8s;
         }
-        .animated-menuToggle.active ~ .animated-menu {
+        .language-menuToggle.active ~ .language-menu {
             width: 120px;
             height: $size-item;
             z-index: 1;
@@ -47,17 +47,17 @@ button {
             transition-delay: 0s, 0.2s, 0.2s;
             box-shadow: 0 15px 25px rgba(var(--bgc), 0.1);
         }
-        .animated-menuToggle.active ~ .animated-menu::before {
+        .language-menuToggle.active ~ .language-menu::before {
             transition-delay: 0.2s;
             top: -4px;
         }
-        .animated-menuToggle.active ~ .animated-menu .animated-list .animated-item {
+        .language-menuToggle.active ~ .language-menu .language-list .language-item {
             opacity: 1;
             visibility: visible;
             transform: translateY(0px);
             transition-delay: 0.5s;
         }
-        .animated-menu {
+        .language-menu {
             position: absolute;
             width: calc($size-btn - 1px);
             height: calc($size-btn - 1px);
@@ -80,14 +80,14 @@ button {
                 border-radius: 2px;
                 transition: 0.2s;
             }
-            .animated-list {
+            .language-list {
                 position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: $size-item;
                 gap: $heightplus/4;
-                .animated-item {
+                .language-item {
                     list-style: none;
                     cursor: pointer;
                     opacity: 0;

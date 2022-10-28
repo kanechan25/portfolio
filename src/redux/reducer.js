@@ -1,17 +1,19 @@
-import actionTypes from '../actions/actionTypes';
-
 const initialState = {
     language: 'en',
-    theme: 'dark',
+    theme: true,
 };
 
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
-        case actionTypes.CHANGE_LANGUAGE:
-            console.log('you have switched language: ', action.language);
+        case 'SWITCH_LANGUAGE':
             return {
                 ...state,
-                language: action.language,
+                language: action.payload,
+            };
+        case 'THEME':
+            return {
+                ...state,
+                theme: action.payload,
             };
         default:
             return state;

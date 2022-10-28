@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { FormattedMessage } from 'react-intl';
 
 import './Home.scss';
 import Aboutme from './Aboutme/Aboutme';
@@ -14,14 +15,14 @@ const Home = (props) => {
                 <div className="leftContainer col-md-6 col-12">
                     <Aboutme welcome={true} portrait={avatar} />
                     <div className="descContainer">
-                        <p>&#183; I have been officially a Developer for almost 3 years.</p>
                         <p>
-                            &#183; I used to be a windows desktop app developer. Now I am a
-                            full-stack web developer.
+                            &#183; <FormattedMessage id="home.desc1" />
                         </p>
                         <p>
-                            &#183; The most outstanding advantages: self-study ability, having
-                            high adaptability and working under intense pressure.
+                            &#183; <FormattedMessage id="home.desc2" />
+                        </p>
+                        <p>
+                            &#183; <FormattedMessage id="home.desc3" />
                         </p>
                     </div>
                 </div>

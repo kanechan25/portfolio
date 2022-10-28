@@ -1,11 +1,12 @@
 import React from 'react';
-import { connect } from 'react-redux';
+
+import { FormattedMessage } from 'react-intl';
 
 import ExprnBoard from './ExprnBoard/ExprnBoard';
 import { exprn2020, exprn2021, exprn2022, exprnFreelance } from './ExprnBoard/ExprnData';
 import './Experience.scss';
 
-const Experience = (props) => {
+const Experience = () => {
     return (
         <div id="exprn" className="exprnContainer">
             <div className="headerContainer">
@@ -26,7 +27,9 @@ const Experience = (props) => {
                             <path d="M156.7,92V71.4c0-18.6,15.2-33.9,33.9-33.9h130.7c18.6,0,33.9,15.2,33.9,33.9V92h34.7V58.7   c0-27.1-21-48.7-48.1-48.7H170.5C143.4,10,122,31.4,122,58.5v33.3L156.7,92z" />
                         </g>
                     </svg>
-                    <p className="exprnHeaderTitle">Experience</p>
+                    <p className="exprnHeaderTitle">
+                        <FormattedMessage id="exprn.exprnheader" />
+                    </p>
                 </div>
                 <div className="exprnDivider"></div>
             </div>
@@ -48,13 +51,5 @@ const Experience = (props) => {
         </div>
     );
 };
-const mapStateToProps = (state) => {
-    return {
-        language: state.language,
-    };
-};
 
-const mapDispatchToProps = (dispatch) => {
-    return {};
-};
-export default connect(mapStateToProps, mapDispatchToProps)(Experience);
+export default Experience;

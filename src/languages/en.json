@@ -1,6 +1,6 @@
 {
     "home": {
-        "desc1": "I have been officially a Developer for almost 3 years. ",
+        "desc1": "I have been officially a Developer for 3 years. ",
         "desc2": "I used to be a windows desktop app developer. Now I am a full-stack web developer. ",
         "desc3": "The most outstanding advantages: self-study ability, having high adaptability and working under intense pressure.",
         "footer": "Kane Chan"
@@ -33,8 +33,9 @@
     "about": {
         "subtop": "Welcome to",
         "homename": "KANE CHAN",
-        "homenamespan": "'S'",
+        "homenamespan": "'S",
         "subbot": "Portfolio",
+        "email": "Email",
         "resume": "My Resume",
         "aboutheader": "About",
         "detail1": "Full-stack development excites me a lot, but I prefer Frontend to Backend a little bit.",
@@ -57,8 +58,8 @@
     "nav": {
         "home": "Home",
         "project": "Projects",
-        "exprn": "Experience",
         "skill": "Skills",
+        "exprn": "Experience",
         "about": "About"
 
         

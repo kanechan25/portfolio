@@ -9,6 +9,6 @@ const routes = {
 export default routes;
 
 export const LANGUAGES = {
-    JP: 'jp',
+    JA: 'ja',
     EN: 'en',
 };

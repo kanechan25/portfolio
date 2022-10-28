@@ -6,6 +6,7 @@ import github from '../../../../assets/img/media/github.svg';
 import youtube from '../../../../assets/img/media/youtube.svg';
 import ktResume from '../../../../files/Tran_Van_Khoa.pdf';
 import './Aboutme.scss';
+import { FormattedMessage } from 'react-intl';
 
 const Aboutme = ({ welcome, portrait }, props) => {
     return (
@@ -25,7 +26,9 @@ const Aboutme = ({ welcome, portrait }, props) => {
                 <img className="portrait-home" src={portrait} alt="portrait" />
                 <div className="info">
                     <a href="mailto:kt.itengineer@gmail.com">
-                        <span className="email">Email: kt.itengineer@gmail.com</span>
+                        <span className="email">
+                            <FormattedMessage id="about.email" />: kt.itengineer@gmail.com
+                        </span>
                     </a>
                     <div className="media">
                         <a
@@ -59,7 +62,7 @@ const Aboutme = ({ welcome, portrait }, props) => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            My Resume
+                            <FormattedMessage id="about.resume" />
                         </Link>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { FormattedMessage } from 'react-intl';
 
 import {
     languageData,
@@ -34,15 +35,21 @@ const Skills = (props) => {
                             </g>
                         </g>
                     </svg>
-                    <p className="headerTitle">Skills</p>
+                    <p className="headerTitle">
+                        <FormattedMessage id="skill.skillheader" />
+                    </p>
                 </div>
                 <div className="divider"></div>
             </div>
             <div className="skillContentContainer">
                 <div className="contentSkill row">
                     <div className="content_left col-sm-4 col-12">
-                        <div className="colTitle">LANGUAGES</div>
-                        <p className="colSubTitle">Programming Languages</p>
+                        <div className="colTitle">
+                            <FormattedMessage id="skill.title1" />
+                        </div>
+                        <p className="colSubTitle">
+                            <FormattedMessage id="skill.subtitle1" />
+                        </p>
                         {languageData.map((item, index) => (
                             <div className="badge" key={index}>
                                 <img
@@ -59,22 +66,29 @@ const Skills = (props) => {
                                 </p>
                             </div>
                         ))}
-                        <p className="colSubTitle">Spoken Languages</p>
+                        <p className="colSubTitle">
+                            <FormattedMessage id="skill.subtitle2" />
+                        </p>
                         <p className="skillEntry subSkill">
-                            <img className="flag" src={vnFlag} alt="vn" /> Vietnamese
+                            <img className="flag" src={vnFlag} alt="vn" />
+                            <FormattedMessage id="skill.subskill1" />
                         </p>
                         <p className="skillEntry subSkill">
                             <img className="flag" src={usFlag} alt="us" />
-                            English
+                            <FormattedMessage id="skill.subskill2" />
                         </p>
                         <p className="skillEntry subSkill">
                             <img className="flag" src={jpFlag} alt="jp" />
-                            Japanese
+                            <FormattedMessage id="skill.subskill3" />
                         </p>
                     </div>
                     <div className="content_mid col-sm-4 col-12">
-                        <div className="colTitle">TOOLS/FRAMEWORKS</div>
-                        <p className="colSubTitle">Web Development</p>
+                        <div className="colTitle">
+                            <FormattedMessage id="skill.title2" />
+                        </div>
+                        <p className="colSubTitle">
+                            <FormattedMessage id="skill.subtitle3" />
+                        </p>
                         {frameworkData.map((item, index) => (
                             <div className="badge" key={index}>
                                 <img
@@ -91,7 +105,9 @@ const Skills = (props) => {
                                 </p>
                             </div>
                         ))}
-                        <p className="colSubTitle">Database</p>
+                        <p className="colSubTitle">
+                            <FormattedMessage id="skill.subtitle4" />
+                        </p>
                         {databaseData.map((item, index) => (
                             <div className="badge" key={index}>
                                 <img
@@ -110,8 +126,12 @@ const Skills = (props) => {
                         ))}
                     </div>
                     <div className="content_right col-sm-4 col-12">
-                        <div className="colTitle">OTHERS</div>
-                        <p className="colSubTitle">Relevant Skills</p>
+                        <div className="colTitle">
+                            <FormattedMessage id="skill.title3" />
+                        </div>
+                        <p className="colSubTitle">
+                            <FormattedMessage id="skill.subtitle5" />
+                        </p>
                         {relevantData.map((item, index) => (
                             <div className="badge" key={index}>
                                 <img
@@ -128,11 +148,21 @@ const Skills = (props) => {
                                 </p>
                             </div>
                         ))}
-                        <p className="colSubTitle">Others</p>
-                        <p className="skillEntry subSkill">MVC Model</p>
-                        <p className="skillEntry subSkill">Algorithm</p>
-                        <p className="skillEntry subSkill">Revit API</p>
-                        <p className="skillEntry subSkill">OOP</p>
+                        <p className="colSubTitle">
+                            <FormattedMessage id="skill.subtitle6" />
+                        </p>
+                        <p className="skillEntry subSkill">
+                            <FormattedMessage id="skill.subskill4" />
+                        </p>
+                        <p className="skillEntry subSkill">
+                            <FormattedMessage id="skill.subskill5" />
+                        </p>
+                        <p className="skillEntry subSkill">
+                            <FormattedMessage id="skill.subskill6" />
+                        </p>
+                        <p className="skillEntry subSkill">
+                            <FormattedMessage id="skill.subskill7" />
+                        </p>
                     </div>
                 </div>
             </div>

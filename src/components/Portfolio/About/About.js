@@ -1,10 +1,10 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { FormattedMessage } from 'react-intl';
 
 import Aboutme from '../Home/Aboutme/Aboutme';
 import './About.scss';
 
-const About = (props) => {
+const About = () => {
     const avatar =
         'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/about/avatars.jpg';
 
@@ -41,7 +41,10 @@ const About = (props) => {
                             />
                         </g>
                     </svg>
-                    <p className="aboutHeaderTitle">About</p>
+
+                    <p className="aboutHeaderTitle">
+                        <FormattedMessage id="about.aboutheader" />
+                    </p>
                 </div>
                 <div className="aboutDivider"></div>
             </div>
@@ -50,74 +53,66 @@ const About = (props) => {
                 <div className="detail-about">
                     <ul className="left-detail">
                         <li>
-                            &#183; Full-stack development excites me a lot, but I prefer
-                            Frontend to Backend a little bit.
+                            &#183;
+                            <FormattedMessage id="about.detail1" />
                         </li>
                         <li>
-                            &#183; I have experience in building RESTful APIs and responsive
-                            Single-Page-Apps (SPA) with Reactjs, Redux, Nodejs, Expressjs, ...
+                            &#183;
+                            <FormattedMessage id="about.detail2" />
                         </li>
                     </ul>
                     <div className="soft-skills">
                         <div className="heading-soft-skill">
-                            Soft Skills for Web Development
+                            <FormattedMessage id="about.softheader" />
                         </div>
                         <div className="container">
                             <div className="row">
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Adaptability
+                                    <FormattedMessage id="about.softitem1" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Eager to learn
+                                    <FormattedMessage id="about.softitem2" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Self-study
+                                    <FormattedMessage id="about.softitem3" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Communication
+                                    <FormattedMessage id="about.softitem4" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Visual thinking
+                                    <FormattedMessage id="about.softitem5" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Problem solving
+                                    <FormattedMessage id="about.softitem6" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Leadership
+                                    <FormattedMessage id="about.softitem7" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Time management
+                                    <FormattedMessage id="about.softitem8" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Creativity
+                                    <FormattedMessage id="about.softitem9" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Negotiation
+                                    <FormattedMessage id="about.softitem10" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Enthusiasm
+                                    <FormattedMessage id="about.softitem11" />
                                 </div>
                                 <div className="soft-item col-md-3 col-sm-4 col-6">
-                                    Patience
+                                    <FormattedMessage id="about.softitem12" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="thank-you">
-                    Thank you so much for stopping by my portfolio page!
+                    <FormattedMessage id="about.thanks" />
                 </div>
             </div>
         </div>
     );
 };
-const mapStateToProps = (state) => {
-    return {
-        language: state.language,
-    };
-};
 
-const mapDispatchToProps = (dispatch) => {
-    return {};
-};
-export default connect(mapStateToProps, mapDispatchToProps)(About);
+export default About;

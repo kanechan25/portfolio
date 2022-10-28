@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Themetoggle from '../../../components/Darkmode/Darkmode';
-import AnimatedMenu from '../../../components/AnimatedMenu/AnimatedMenu';
+import SwitchLang from '../../SwitchLang.js/SwitchLang';
 import portrait_header from '../../../assets/img/avatar/portrait_2020.jpg';
 import './Header.scss';
 
@@ -23,7 +23,7 @@ const Header = () => {
                     <Themetoggle />
                 </div>
                 <div className="animated-menu">
-                    <AnimatedMenu />
+                    <SwitchLang />
                 </div>
             </div>
         </header>
