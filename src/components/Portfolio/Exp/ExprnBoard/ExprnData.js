@@ -64,7 +64,8 @@ export const exprn2022 = {
             role: [
                 'Full-stack Web Developer: ',
                 'Building RESTful APIs and responsive Single-Page-Apps (SPA)',
-                'Programming UI/UX of some main routes and modules',
+                'Programming UI/UX (from Figma) of some main routes and modules',
+                'Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)',
             ],
         },
         {
