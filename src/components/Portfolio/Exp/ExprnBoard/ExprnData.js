@@ -24,7 +24,7 @@ export const exprn2020 = {
 export const exprn2021 = {
     company: 'T&T Design',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png',
-    time: 'Mar 2020 - Sep 2020',
+    time: 'Mar 2020 - Aug 2020',
     exprn: [
         {
             project: 'BIM-5D Software',
@@ -57,7 +57,7 @@ export const exprn2021 = {
 export const exprn2022 = {
     company: 'T&T Design',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png',
-    time: 'Sep 2020 - Oct 2022',
+    time: 'Aug 2020 - Nov 2022',
     exprn: [
         {
             project: 'Health care app',
@@ -73,6 +73,7 @@ export const exprn2022 = {
             role: [
                 'Full-stack Web Developer: ',
                 'Programming websites by Reactjs, Redux, Nodejs, Expressjs, MongoDb, AWS...',
+                'Join to build a Real-time Application RTAs (based on a WebSockets)',
             ],
         },
         {
