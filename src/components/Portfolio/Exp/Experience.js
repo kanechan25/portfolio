@@ -3,7 +3,13 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import ExprnBoard from './ExprnBoard/ExprnBoard';
-import { exprn2020, exprn2021, exprn2022, exprnFreelance } from './ExprnBoard/ExprnData';
+import {
+    exprn2016,
+    exprn2020,
+    exprn2021,
+    exprn2022,
+    exprnFreelance,
+} from './ExprnBoard/ExprnData';
 import './Experience.scss';
 
 const Experience = () => {
@@ -44,6 +50,7 @@ const Experience = () => {
                         <ExprnBoard data={exprn2022} />
                         <ExprnBoard data={exprn2021} />
                         <ExprnBoard data={exprn2020} />
+                        <ExprnBoard data={exprn2016} />
                         <ExprnBoard data={exprnFreelance} />
                     </div>
                 </div>

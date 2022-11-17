@@ -1,3 +1,17 @@
+export const exprn2016 = {
+    company: 'Construction corporations',
+    logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ccs.png',
+    time: 'Jun 2016 - Feb 2019',
+    exprn: [
+        {
+            project: 'Tools and Mini-software',
+            role: [
+                ' .Net Developer/Civil Engineer: ',
+                ' Write tools/mini-software to calculate and optimize tasks and management processes in construction domain.',
+            ],
+        },
+    ],
+};
 export const exprn2020 = {
     company: 'NDC Consulting',
     logo: 'https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ndc.png',

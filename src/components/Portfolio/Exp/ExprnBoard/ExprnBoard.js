@@ -10,7 +10,9 @@ const ExprnBoard = ({ data }) => {
                     <div className="joinNode"></div>
                     <div className="exprnTime">{data.time}</div>
                     <div className="exprnWork">
-                        <img className="img-company" src={data.logo} alt={data.company} />
+                        {data.logo && (
+                            <img className="img-company" src={data.logo} alt={data.company} />
+                        )}
                     </div>
                     <div className="sub-bar"></div>
                 </div>
