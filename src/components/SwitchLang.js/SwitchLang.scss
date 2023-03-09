@@ -1,0 +1,112 @@
+@import '../GlobalStyles/base.scss';
+
+$size-btn: 25px;
+$size-item: 40px;
+$heightplus: 22px;
+
+button {
+    border: none;
+    background: transparent;
+}
+
+.language-menu {
+    // margin: $size-btn 0px $size-btn 0px;
+    .language-navigation {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .language-menuToggle {
+            position: relative;
+            width: $size-btn;
+            height: $size-btn;
+            background: var(--text);
+            border-radius: $size-btn;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-icon {
+            height: $size-btn;
+            color: var(--bgc);
+        }
+        .language-menuToggle.active .main-icon {
+            transition: 0.3s;
+            transform: rotate(30deg);
+        }
+        .language-menuToggle .main-icon {
+            transition: 0.8s;
+        }
+        .language-menuToggle.active ~ .language-menu {
+            width: 120px;
+            height: $size-item;
+            z-index: 1;
+            transform: translateY(50px);
+            transition-delay: 0s, 0.2s, 0.2s;
+            box-shadow: 0 15px 25px rgba(var(--bgc), 0.1);
+        }
+        .language-menuToggle.active ~ .language-menu::before {
+            transition-delay: 0.2s;
+            top: -4px;
+        }
+        .language-menuToggle.active ~ .language-menu .language-list .language-item {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0px);
+            transition-delay: 0.5s;
+        }
+        .language-menu {
+            position: absolute;
+            width: calc($size-btn - 1px);
+            height: calc($size-btn - 1px);
+            transform: translateY(0px);
+            background: var(--text);
+            border-radius: calc($size-btn - 1px);
+            z-index: -1;
+            transition: transform 0.5s, width 0.5s, height 0.5s;
+            transition-delay: 0.3s, 0.3s, 0.3s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            &::before {
+                content: '';
+                position: absolute;
+                height: $heightplus/2;
+                width: $heightplus/2;
+                background: var(--text);
+                left: calc(50% - 6px);
+                bottom: 4px;
+                transform: rotate(45deg);
+                border-radius: 2px;
+                transition: 0.2s;
+            }
+            .language-list {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: $size-item;
+                gap: $heightplus/4;
+                .language-item {
+                    list-style: none;
+                    cursor: pointer;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.25s;
+                    transform: translateY(-$heightplus);
+                    transition-delay: 0.1s;
+                    .btn-lang {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        color: var(--bgc);
+                        .img-lang {
+                            height: $heightplus;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

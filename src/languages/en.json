@@ -1,0 +1,67 @@
+{
+    "home": {
+        "desc1": "I have been officially a Developer for over 3 years. ",
+        "desc2": "I used to be a windows desktop app developer. Now I am a full-stack web developer. ",
+        "desc3": "The most outstanding advantages: self-study ability, having high adaptability and working under intense pressure.",
+        "footer": "Kane Chan"
+    },
+    "project": {
+        "prjheader": "Projects"
+    },
+    "skill": {
+        "skillheader": "Skills",
+        "title1": "LANGUAGES",
+        "title2": "TOOLS/FRAMEWORKS",
+        "title3": "OTHERS",
+        "subtitle1": "Programming Languages",
+        "subtitle2": "Spoken Languages",
+        "subtitle3": "Web Development",
+        "subtitle4": "Database",
+        "subtitle5": "Relevant Skills",
+        "subtitle6": "Others",
+        "subskill1": "Vietnamese",
+        "subskill2": "English",
+        "subskill3": "Japanese",
+        "subskill4": "MVC Model",
+        "subskill5": "Algorithm",
+        "subskill6": "Revit API",
+        "subskill7": "OOP"
+    },
+    "exprn": {
+        "exprnheader": "Experience"
+    },
+    "about": {
+        "subtop": "Welcome to",
+        "homename": "KANE CHAN",
+        "homenamespan": "'S",
+        "subbot": "Portfolio",
+        "email": "Email",
+        "resume": "My Resume",
+        "aboutheader": "About",
+        "detail1": "Full-stack development excites me a lot, but I prefer Frontend to Backend a little bit.",
+        "detail2": "I have experience in building RESTful APIs and responsive Single-Page-Apps (SPA) with Reactjs, Redux, Nodejs, Expressjs, ...",
+        "softheader": "Soft Skills for Web Development",
+        "softitem1": "Adaptability",
+        "softitem2": "Eager to learn",
+        "softitem3": "Self-study",
+        "softitem4": "Creativity",
+        "softitem5": "Visual thinking",
+        "softitem6": "Problem solving",
+        "softitem7": "Leadership",
+        "softitem8": "Time management",
+        "softitem9": "Communication",
+        "softitem10": "Negotiation",
+        "softitem11": "Enthusiasm",
+        "softitem12": "Patience",
+        "thanks": "Thank you so much for stopping by my portfolio page!"
+    },
+    "nav": {
+        "home": "Home",
+        "project": "Projects",
+        "skill": "Skills",
+        "exprn": "Experience",
+        "about": "About"
+
+        
+    }
+}

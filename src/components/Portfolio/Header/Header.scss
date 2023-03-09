@@ -1,0 +1,31 @@
+@import '../../GlobalStyles/base.scss';
+
+
+.header-wrapper {
+    padding: 2px 0px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    height: 46px;
+    .home-header {
+        margin-right: 20px;
+        .portrait-header {
+            height: 30px;
+            border-radius: 50%;
+        }
+        .text-header {
+            color: var(--text);
+            font-family: 'Mouse Memoirs', sans-serif;
+            font-size: 40px;
+        }
+    }
+    .theme-toggle {
+        margin-right: 4px;
+    }
+}
