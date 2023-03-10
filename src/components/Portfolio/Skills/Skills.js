@@ -15,6 +15,7 @@ import jpFlag from "../../../assets/img/skills/languages/jp-flag-icon.svg";
 
 const Skills = (props) => {
   const programLanguageData = languageData.sort((a, b) => a.id - b.id);
+  const webFrameworkData = frameworkData.sort((a, b) => a.id - b.id);
   return (
     <div id="skill" className="skillContainer container">
       <div className="headerContainer">
@@ -90,7 +91,7 @@ const Skills = (props) => {
             <p className="colSubTitle">
               <FormattedMessage id="skill.subtitle3" />
             </p>
-            {frameworkData.map((item, index) => (
+            {webFrameworkData.map((item, index) => (
               <div className="badge" key={index}>
                 <img
                   className="skillbadge"
