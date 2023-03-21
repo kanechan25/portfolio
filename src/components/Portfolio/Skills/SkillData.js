@@ -28,6 +28,7 @@ import postman from "../../../assets/img/skills/others/postman.png";
 import ps from "../../../assets/img/skills/others/ps.svg";
 import vscode from "../../../assets/img/skills/others/vscode.svg";
 import visualstudio from "../../../assets/img/skills/others/visualstudio.svg";
+import figma from "../../../assets/img/skills/others/figma.png";
 
 export const languageData = [
   {
@@ -43,6 +44,13 @@ export const languageData = [
     img: js,
     colorBadge: "#555",
     colorEntry: "#84cc16",
+  },
+  {
+    id: 3,
+    name: "TypeScript",
+    img: ts,
+    colorBadge: "#999",
+    colorEntry: "#f2f2f2",
   },
   {
     id: 4,
@@ -78,13 +86,6 @@ export const languageData = [
     img: vbdotnet,
     colorBadge: "#777",
     colorEntry: "#00f9f2",
-  },
-  {
-    id: 3,
-    name: "TypeScript",
-    img: ts,
-    colorBadge: "#999",
-    colorEntry: "#f2f2f2",
   },
 ];
 export const frameworkData = [
@@ -185,48 +186,55 @@ export const relevantData = [
   },
   {
     id: 2,
+    name: "Figma",
+    img: figma,
+    colorBadge: "#d3d3d3",
+    colorEntry: "#449ff2",
+  },
+  {
+    id: 3,
     name: "npm",
     img: npm,
     colorBadge: "#d3d3d3",
     colorEntry: "#cc3534",
   },
   {
-    id: 3,
+    id: 4,
     name: "Drive API",
     img: googledriveapi,
     colorBadge: "#d3d3d3",
     colorEntry: "#f5c954",
   },
   {
-    id: 4,
+    id: 5,
     name: "VS Code",
     img: vscode,
     colorBadge: "#d3d3d3",
     colorEntry: "#45aff3",
   },
   {
-    id: 5,
+    id: 6,
     name: "Visual Studio",
     img: visualstudio,
     colorBadge: "#d3d3d3",
     colorEntry: "#0173c1",
   },
   {
-    id: 6,
+    id: 7,
     name: "Postman",
     img: postman,
     colorBadge: "#555",
     colorEntry: "#f26634",
   },
   {
-    id: 7,
+    id: 8,
     name: "Photoshop",
     img: ps,
     colorBadge: "#999",
     colorEntry: "#449ff2",
   },
   {
-    id: 8,
+    id: 9,
     name: "MS Office",
     img: msoffice,
     colorBadge: "#666",

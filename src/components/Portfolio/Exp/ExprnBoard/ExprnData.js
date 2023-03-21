@@ -102,7 +102,7 @@ export const exprn2022 = {
 export const exprn2023 = {
   company: "Technixo Co. Ltd",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/tnx2.png",
-  time: "Nov 2022 - Mar 2023",
+  time: "Nov 2022 - Apr 2023",
   exprn: [
     {
       project: "DeFi Marketplace",
@@ -116,7 +116,7 @@ export const exprn2023 = {
     {
       project: "Campaign Webpages",
       role: [
-        "Front-end Web Developer: ",
+        "Sub-leader, Front-end Web Developer: ",
         "Building a Landing page and 5 child web pages for campaigns at the Defi marketplace",
         "Programming websites by Javascript, TypeScript, Reactjs, Redux, Nextjs, ...",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
