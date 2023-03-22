@@ -105,21 +105,21 @@ export const exprn2023 = {
   time: "Nov 2022 - Apr 2023",
   exprn: [
     {
-      project: "DeFi Marketplace",
-      role: [
-        "Front-end Web Developer: ",
-        "Building Order Book of Futures Product at https://position.exchange",
-        "Programming UI/UX (from Figma) of some other main components",
-        "Join to build a Real-time Application RTAs (based on a WebSockets)",
-      ],
-    },
-    {
       project: "Campaign Webpages",
       role: [
         "Sub-leader, Front-end Web Developer: ",
         "Building a Landing page and 5 child web pages for campaigns at the Defi marketplace",
         "Programming websites by Javascript, TypeScript, Reactjs, Redux, Nextjs, ...",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
+      ],
+    },
+    {
+      project: "DeFi Marketplace",
+      role: [
+        "Front-end Web Developer: ",
+        "Building Order Book of Futures Product at https://position.exchange",
+        "Programming UI/UX (from Figma) of some other main components",
+        "Join to build a Real-time Application RTAs (based on a WebSockets)",
       ],
     },
   ],
