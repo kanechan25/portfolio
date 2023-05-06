@@ -102,8 +102,19 @@ export const exprn2022 = {
 export const exprn2023 = {
   company: "Technixo Co. Ltd",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/tnx2.png",
-  time: "Nov 2022 - Apr 2023",
+  time: "Nov 2022 - May 2023",
   exprn: [
+    {
+      project: "DeFi Apps",
+      role: [
+        "Sub-leader, Front-end Web Developer: ",
+        "Building features of Futures Product (Derivatives)",
+        "Programming UI/UX (from Figma) of some other main components",
+        "Join to build a Real-time Application RTAs (based on a WebSockets)",
+      ],
+      referLink:
+        "https://next-dptp-git-release-dptp-positionex.vercel.app/dptp/trading/lite/USD-M/BTC/BUSD",
+    },
     {
       project: "Campaign Webpages",
       role: [
@@ -112,15 +123,7 @@ export const exprn2023 = {
         "Programming websites by Javascript, TypeScript, Reactjs, Redux, Nextjs, ...",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
       ],
-    },
-    {
-      project: "DeFi Marketplace",
-      role: [
-        "Front-end Web Developer: ",
-        "Building Order Book of Futures Product at https://position.exchange",
-        "Programming UI/UX (from Figma) of some other main components",
-        "Join to build a Real-time Application RTAs (based on a WebSockets)",
-      ],
+      referLink: "https://position.exchange/dex/airdrop",
     },
   ],
 };
@@ -132,7 +135,7 @@ export const exprnFreelance = {
     {
       project: "Tutor (part-time)",
       role: [
-        "I am a tutor who teaches VBScript and some construction software for Civil Engineers",
+        "I am a tutor who teaches VBScript and some software supoporting Civil Engineers's coding",
       ],
     },
   ],
