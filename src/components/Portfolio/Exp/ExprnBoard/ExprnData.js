@@ -108,7 +108,7 @@ export const exprn2023 = {
       project: "DeFi Apps",
       role: [
         "Sub-leader, Front-end Web Developer: ",
-        "Building features of Futures Product (Derivatives)",
+        "Be in charge of coding features of Futures Product (Derivatives)",
         "Programming UI/UX (from Figma) of some other main components",
         "Join to build a Real-time Application RTAs (based on a WebSockets)",
       ],
@@ -119,7 +119,7 @@ export const exprn2023 = {
       project: "Campaign Webpages",
       role: [
         "Sub-leader, Front-end Web Developer: ",
-        "Building a Landing page and 5 child web pages for campaigns at the Defi marketplace",
+        "Coding and review code to build a landing page and 5 child web pages for campaigns at the Defi Apps",
         "Programming websites by Javascript, TypeScript, Reactjs, Redux, Nextjs, ...",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
       ],

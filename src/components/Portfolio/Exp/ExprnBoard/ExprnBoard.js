@@ -43,7 +43,13 @@ const ExprnBoard = ({ data }) => {
                     </ul>
                   ))}
                   {exprn.referLink && (
-                    <a href="exprn.referLink">{`\u2022 Referal web link`}</a>
+                    <a
+                      href={exprn.referLink}
+                      target="__blank"
+                      rel="noopener noreferrer"
+                    >
+                      {`\u2022 ${exprn.project} link`}
+                    </a>
                   )}
                 </div>
               </div>
