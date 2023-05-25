@@ -53,15 +53,13 @@
         "softitem10": "Negotiation",
         "softitem11": "Enthusiasm",
         "softitem12": "Patience",
-        "thanks": "Thank you so much for stopping by my portfolio page!"
+        "thanks": "Thank you so much for stopping by my portfolio pages!"
     },
     "nav": {
         "home": "Home",
         "project": "Projects",
         "skill": "Skills",
         "exprn": "Experience",
-        "about": "About"
-
-        
+        "about": "About"        
     }
 }

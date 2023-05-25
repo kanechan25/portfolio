@@ -1,4 +1,5 @@
 export const exprn2016 = {
+  id: 1,
   company: "Construction corporations",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ccs.png",
   time: "Jun 2016 - Feb 2019",
@@ -13,6 +14,7 @@ export const exprn2016 = {
   ],
 };
 export const exprn2020 = {
+  id: 2,
   company: "NDC Consulting",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ndc.png",
   time: "Feb 2019 - Feb 2020",
@@ -36,6 +38,7 @@ export const exprn2020 = {
   ],
 };
 export const exprn2021 = {
+  id: 3,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
   time: "Mar 2020 - Aug 2020",
@@ -69,6 +72,7 @@ export const exprn2021 = {
   ],
 };
 export const exprn2022 = {
+  id: 4,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
   time: "Aug 2020 - Oct 2022",
@@ -81,6 +85,7 @@ export const exprn2022 = {
         "Programming UI/UX (from Figma) of some main routes and modules",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
       ],
+      referLink: "https://www.iryou-nhc.jp/",
     },
     {
       project: "Other Website Projects",
@@ -100,20 +105,21 @@ export const exprn2022 = {
   ],
 };
 export const exprn2023 = {
+  id: 5,
   company: "Technixo Co. Ltd",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/tnx2.png",
-  time: "Nov 2022 - May 2023",
+  time: "Nov 2022 - Now",
   exprn: [
     {
       project: "DeFi Apps",
       role: [
-        "Sub-leader, Front-end Web Developer: ",
+        "FE leader, Front-end Web Developer: ",
         "Be in charge of coding features of Futures Product (Derivatives)",
         "Programming UI/UX (from Figma) of some other main components",
         "Join to build a Real-time Application RTAs (based on a WebSockets)",
       ],
       referLink:
-        "https://next-dptp-git-release-dptp-positionex.vercel.app/dptp/trading/lite/USD-M/BTC/BUSD",
+        "https://next-dptp-git-release-dptp-positionex.vercel.app/dptp/trading/USD-M/BTC/BUSD",
     },
     {
       project: "Campaign Webpages",
@@ -128,6 +134,7 @@ export const exprn2023 = {
   ],
 };
 export const exprnFreelance = {
+  id: 6,
   company: "Freelance",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/freelances.png",
   time: "Oct 2020 - Feb 2022",

@@ -11,7 +11,15 @@ const ExprnBoard = ({ data }) => {
           <div className="exprnTime">{data.time}</div>
           <div className="exprnWork">
             {data.logo && (
-              <img className="img-company" src={data.logo} alt={data.company} />
+              <img
+                className={
+                  data.id === 1 || data.id === 5
+                    ? "img-company-c"
+                    : "img-company"
+                }
+                src={data.logo}
+                alt={data.company}
+              />
             )}
           </div>
           <div className="sub-bar"></div>
@@ -44,6 +52,7 @@ const ExprnBoard = ({ data }) => {
                   ))}
                   {exprn.referLink && (
                     <a
+                      className="role-link-item"
                       href={exprn.referLink}
                       target="__blank"
                       rel="noopener noreferrer"
