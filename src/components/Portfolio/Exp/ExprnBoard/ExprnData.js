@@ -129,8 +129,7 @@ export const exprn2023 = {
         "Programming websites by Javascript, TypeScript, Reactjs, Redux, Nextjs, ...",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
       ],
-      referLink:
-        "https://position-web-nextgen-campaigns-git-dex2-deploy-uat-positionex.vercel.app/dex/airdrop",
+      referLink: "https://position.exchange/dex/airdrop",
     },
   ],
 };
