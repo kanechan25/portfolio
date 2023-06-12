@@ -24,6 +24,9 @@ const Home = (props) => {
             <p>
               &#183; <FormattedMessage id="home.desc3" />
             </p>
+            <p>
+              &#183; <FormattedMessage id="home.desc4" />
+            </p>
           </div>
         </div>
         <div className="rightContainer col-md-6 col-12">
