@@ -75,7 +75,7 @@ export const exprn2022 = {
   id: 4,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
-  time: "Aug 2020 - Oct 2022",
+  time: "Aug 2020 - July 2022",
   exprn: [
     {
       project: "Health care app",
@@ -108,7 +108,7 @@ export const exprn2023 = {
   id: 5,
   company: "Technixo Co. Ltd",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/tnx2.png",
-  time: "Nov 2022 - Now",
+  time: "Aug 2022 - Now",
   exprn: [
     {
       project: "DeFi Apps",
