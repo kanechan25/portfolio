@@ -1,23 +1,23 @@
-export const exprn2016 = {
-  id: 1,
-  company: "Construction corporations",
-  logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ccs.png",
-  time: "Jun 2016 - Feb 2019",
-  exprn: [
-    {
-      project: "Tools and Mini-software",
-      role: [
-        " .Net Developer/Civil Engineer: ",
-        " Write tools/mini-software to calculate and optimize tasks and management processes in construction domain.",
-      ],
-    },
-  ],
-};
+// export const exprn2016 = {
+//   id: 1,
+//   company: "Construction corporations",
+//   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ccs.png",
+//   time: "Jun 2016 - Feb 2019",
+//   exprn: [
+//     {
+//       project: "Tools and Mini-software",
+//       role: [
+//         " .Net Developer/Civil Engineer: ",
+//         " Write tools/mini-software to calculate and optimize tasks and management processes in construction domain.",
+//       ],
+//     },
+//   ],
+// };
 export const exprn2020 = {
   id: 2,
   company: "NDC Consulting",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ndc.png",
-  time: "Feb 2019 - Feb 2020",
+  time: "Jun 2016 - Feb 2019",
   exprn: [
     {
       project: "BIM CUBIC",
@@ -35,13 +35,20 @@ export const exprn2020 = {
         "Programming VBScript add-ins to interact with database operations (managed by MS Excel and Windows folders)",
       ],
     },
+    {
+      project: "Tools and Mini-software",
+      role: [
+        " .Net Developer",
+        " Write tools/mini-software to calculate and optimize tasks and management processes in construction domain.",
+      ],
+    },
   ],
 };
 export const exprn2021 = {
   id: 3,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
-  time: "Mar 2020 - Aug 2020",
+  time: "Mar 2019 - Aug 2019",
   exprn: [
     {
       project: "BIM-5D Software",
@@ -75,7 +82,7 @@ export const exprn2022 = {
   id: 4,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
-  time: "Aug 2020 - July 2022",
+  time: "Aug 2019 - Aug 2022",
   exprn: [
     {
       project: "Health care app",
