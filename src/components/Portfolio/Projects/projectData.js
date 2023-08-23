@@ -329,8 +329,8 @@ export const projectData = [
       "VB.net scripts help manage/categorize file system",
       "To CRUD files in folder on CDE ",
     ],
-    subTech: [],
-    tech: [languageData[6], relevantData[7]],
+    subTech: ["Singleton", "MVC Model"],
+    tech: [languageData[7], languageData[6], relevantData[7], relevantData[5]],
   },
 
   {
@@ -347,7 +347,7 @@ export const projectData = [
     subTech: ["Singleton", "MVC Model"],
     tech: [
       languageData[0],
-      languageData[2],
+      languageData[3],
       databaseData[0],
       relevantData[0],
       relevantData[4],
