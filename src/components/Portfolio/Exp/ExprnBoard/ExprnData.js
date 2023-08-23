@@ -92,7 +92,9 @@ export const exprn2022 = {
         "Programming UI/UX (from Figma) of some main routes and modules",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
       ],
-      referLink: "https://www.iryou-nhc.jp/",
+      referLink: [
+        { link: "https://www.iryou-nhc.jp/", title: "Health care app" },
+      ],
     },
     {
       project: "Other Website Projects",
@@ -125,8 +127,24 @@ export const exprn2023 = {
         "Programming UI/UX (from Figma) of some other main components",
         "Join to build a Real-time Application RTAs (based on a WebSockets)",
       ],
-      referLink:
-        "https://next-dptp-git-release-dptp-positionex.vercel.app/dptp/trading/USD-M/BTC/BUSD",
+      referLink: [
+        {
+          link: "https://futurx.com/dptp/trading/lite/USD-M/BTC/USD",
+          title: "Future DPTP 2.0",
+        },
+        {
+          link: "https://position.exchange/futures/USD-M/BTC/BUSD",
+          title: "Trading Coins App",
+        },
+        {
+          link: "https://frog-fellow-git-release-frog-fellow-positionex.vercel.app/frog-fellow",
+          title: "PEPE Coin Airdrop",
+        },
+        {
+          link: "https://frontend-tnx-os-01-git-release-tnx-os-01-positionex.vercel.app/swap",
+          title: "MEME Swap App",
+        },
+      ],
     },
     {
       project: "Campaign Webpages",
@@ -136,7 +154,12 @@ export const exprn2023 = {
         "Programming websites by Javascript, TypeScript, Reactjs, Redux, Nextjs, ...",
         "Taking part in Frontend Optimization (lazy load, prefetch, wasted renders, ...)",
       ],
-      referLink: "https://position.exchange/dex/airdrop",
+      referLink: [
+        {
+          link: "https://position.exchange/dex/airdrop",
+          title: "AirDrop Campaign",
+        },
+      ],
     },
   ],
 };

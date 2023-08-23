@@ -158,13 +158,10 @@ const Skills = (props) => {
               <FormattedMessage id="skill.subskill4" />
             </p>
             <p className="skillEntry subSkill">
-              <FormattedMessage id="skill.subskill5" />
-            </p>
-            <p className="skillEntry subSkill">
-              <FormattedMessage id="skill.subskill6" />
-            </p>
-            <p className="skillEntry subSkill">
               <FormattedMessage id="skill.subskill7" />
+            </p>
+            <p className="skillEntry subSkill">
+              <FormattedMessage id="skill.subskill5" />
             </p>
           </div>
         </div>

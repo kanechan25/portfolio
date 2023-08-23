@@ -25,7 +25,6 @@
         "subskill3": "日本語",
         "subskill4": "MVC モデル",
         "subskill5": "アルゴリズム",
-        "subskill6": "Revit API",
         "subskill7": "OOP"
     },
     "exprn": {
@@ -40,7 +39,7 @@
         "resume": "履歴書",
         "aboutheader": "約",
         "detail1": "フルスタック開発は私を大いに興奮させますが、バックエンドよりもフロントエンドの方が少し好きです。",
-        "detail2": "Reactjs、Redux、Nodejs、Expressjs などを使用して、RESTful API とレスポンシブ シングルページ アプリ (SPA) を構築した経験があります。",
+        "detail2": "私は、サーバー側レンダリングとクライアント側レンダリングの両方を使用して RESTful API とレスポンシブなシングルページ アプリ (SPA) を構築した経験があります。",
         "softheader": "ウェブ開発のソフトスキル",
         "softitem1": "適応性",
         "softitem2": "習いたがる",

@@ -1,6 +1,6 @@
 {
     "home": {
-        "desc1": "Having been officially a Developer since beginning 2019 even though I started coding in 2016.",
+        "desc1": "Although I started coding in 2016, I have been officially a Developer in a technology company since the beginning of 2019.",
         "desc2": "I used to be a full-stack web developer. Now I focus on front-end web development. ",
         "desc3": "Having first-hand experience in the financial market and other domains as a team leader.",
         "desc4": "The most outstanding advantages: self-study ability, having high adaptability and working under intense pressure.",
@@ -25,7 +25,6 @@
         "subskill3": "Japanese",
         "subskill4": "MVC Model",
         "subskill5": "Algorithm",
-        "subskill6": "Revit API",
         "subskill7": "OOP"
     },
     "exprn": {
@@ -40,7 +39,7 @@
         "resume": "My Resume",
         "aboutheader": "About",
         "detail1": "Full-stack development excites me a lot, but I prefer Frontend to Backend a little bit.",
-        "detail2": "I have experience in building RESTful APIs and responsive Single-Page-Apps (SPA) with Reactjs, Redux, Nodejs, Expressjs, ...",
+        "detail2": "I gained hands-on experience in building RESTful APIs and responsive Single-Page-Apps (SPA) with both Server-Side Rendering and Client-Side Rendering.",
         "softheader": "Soft Skills for Web Development",
         "softitem1": "Adaptability",
         "softitem2": "Eager to learn",

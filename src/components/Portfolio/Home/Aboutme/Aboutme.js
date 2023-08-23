@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import linkedin from "../../../../assets/img/media/linkedin.svg";
 import github from "../../../../assets/img/media/github.svg";
 import youtube from "../../../../assets/img/media/youtube.svg";
-import ktResume from "../../../../files/KhoaTV_2023.pdf";
+import ktResume from "../../../../files/TranVanKhoa_2023.pdf";
 import "./Aboutme.scss";
 import { FormattedMessage } from "react-intl";
 
@@ -39,7 +39,7 @@ const Aboutme = ({ welcome, portrait }, props) => {
               <img className="mediaIcon github" src={github} alt="github" />
             </a>
             <a
-              href="https://www.linkedin.com/in/khoatran2593/"
+              href="https://www.linkedin.com/in/khoatran2425/"
               target="__blank"
               rel="noopener noreferrer"
             >

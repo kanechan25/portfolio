@@ -50,16 +50,21 @@ const ExprnBoard = ({ data }) => {
                       </li>
                     </ul>
                   ))}
-                  {exprn.referLink && (
-                    <a
-                      className="role-link-item"
-                      href={exprn.referLink}
-                      target="__blank"
-                      rel="noopener noreferrer"
-                    >
-                      {`\u2022 ${exprn.project} link`}
-                    </a>
-                  )}
+                  {exprn?.referLink &&
+                    exprn?.referLink.map((link, index) => (
+                      <ul key={index}>
+                        <li>
+                          <a
+                            className="role-link-item"
+                            href={link.link}
+                            target="__blank"
+                            rel="noopener noreferrer"
+                          >
+                            {`\u2022 ${link.title}`}
+                          </a>
+                        </li>
+                      </ul>
+                    ))}
                 </div>
               </div>
             ))}
