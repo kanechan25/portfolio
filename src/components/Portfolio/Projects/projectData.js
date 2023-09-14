@@ -26,7 +26,7 @@ export const projectData = [
     projectImg: dptp,
     type: "Web Application",
     title: "DApps (Financial Marketplace)",
-    link: "https://futurx.com/dptp/trading/lite/USD-M/BTC/USD",
+    link: "https://pilot.futurx.com/dptp/trading/lite/USD-M/BTC/USD",
     back: [
       "Responsive web design by NextJS, ReactJS and TypeScript",
       "Derivatives product: futures contract on DeFi marketplace",

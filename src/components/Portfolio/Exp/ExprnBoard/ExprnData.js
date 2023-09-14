@@ -129,7 +129,7 @@ export const exprn2023 = {
       ],
       referLink: [
         {
-          link: "https://futurx.com/dptp/trading/lite/USD-M/BTC/USD",
+          link: "https://pilot.futurx.com/dptp/trading/lite/USD-M/BTC/USD",
           title: "Future DPTP 2.0",
         },
         {
