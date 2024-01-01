@@ -9,7 +9,7 @@ import restaurant from "../../../assets/img/projects/restaurant.png";
 import airdrop from "../../../assets/img/projects/airdrop.png";
 import future from "../../../assets/img/projects/future.png";
 import frogfellow from "../../../assets/img/projects/frogfellow.png";
-import outsource from "../../../assets/img/projects/outsource.png";
+import cattieDapp from "../../../assets/img/projects/cattie_dapp.png";
 import dptp from "../../../assets/img/projects/dptp.png";
 
 import {
@@ -155,15 +155,15 @@ export const projectData = [
   },
   {
     id: 12,
-    project: "MEME SWAP",
-    projectImg: outsource,
+    project: "CATTIE DAPP",
+    projectImg: cattieDapp,
     type: "Web Application",
     title: "Web App (Decentralized Finance)",
-    link: "https://frontend-tnx-os-01-git-release-tnx-os-01-positionex.vercel.app/swap",
+    link: "https://www.cattieswap.xyz/",
     back: [
-      "Responsive web design by NextJS, ReactJS and TypeScript",
-      "Purchase Pepe Coin and receive rewards from our platform",
-      "Swap multible coin or Stake in PEPE pools ",
+      "Responsive web design by Web3js, ReactJS and TypeScript",
+      "Purchase Cattie Coin and receive rewards from our platform",
+      "Swap multible coin or Stake in Cattie pools ",
       "Deflationary mechanism (Burning Coins)",
     ],
     subTech: [],

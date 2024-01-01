@@ -137,12 +137,12 @@ export const exprn2023 = {
           title: "Trading Coins App",
         },
         {
-          link: "https://frog-fellow-git-release-frog-fellow-positionex.vercel.app/frog-fellow",
-          title: "PEPE Coin Airdrop",
+          link: "https://www.cattieswap.xyz/",
+          title: "Cattie DApp",
         },
         {
-          link: "https://frontend-tnx-os-01-git-release-tnx-os-01-positionex.vercel.app/swap",
-          title: "MEME Swap App",
+          link: "https://frog-fellow-git-release-frog-fellow-positionex.vercel.app/frog-fellow",
+          title: "PEPE Coin Airdrop",
         },
       ],
     },
