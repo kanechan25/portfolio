@@ -19,6 +19,9 @@ import nodejs from "../../../assets/img/skills/tools_framework/nodejs.png";
 import postgresql from "../../../assets/img/skills/tools_framework/postgresql.svg";
 import reactjs from "../../../assets/img/skills/tools_framework/reactjs.svg";
 import redux from "../../../assets/img/skills/tools_framework/redux.svg";
+import vuejs from "../../../assets/img/skills/tools_framework/vuejs.png";
+import mui from "../../../assets/img/skills/tools_framework/mui.png";
+import graphql from "../../../assets/img/skills/tools_framework/graphQL.png";
 
 import git from "../../../assets/img/skills/others/git.svg";
 import googledriveapi from "../../../assets/img/skills/others/googledriveapi.svg";
@@ -29,6 +32,7 @@ import ps from "../../../assets/img/skills/others/ps.svg";
 import vscode from "../../../assets/img/skills/others/vscode.svg";
 import visualstudio from "../../../assets/img/skills/others/visualstudio.svg";
 import figma from "../../../assets/img/skills/others/figma.png";
+import docker from "../../../assets/img/skills/others/docker.png";
 
 export const languageData = [
   {
@@ -104,6 +108,13 @@ export const frameworkData = [
     colorEntry: "#734ead",
   },
   {
+    id: 2,
+    name: "Vuejs",
+    img: vuejs,
+    colorBadge: "#ffffff",
+    colorEntry: "#ffa500",
+  },
+  {
     id: 4,
     name: "Nodejs",
     img: nodejs,
@@ -146,6 +157,13 @@ export const frameworkData = [
     colorEntry: "#ffffff",
   },
   {
+    id: 8,
+    name: "Material UI",
+    img: mui,
+    colorBadge: "#fff",
+    colorEntry: "#888",
+  },
+  {
     id: 9,
     name: "Tailwind CSS",
     img: tailwind,
@@ -163,6 +181,13 @@ export const databaseData = [
   },
   {
     id: 2,
+    name: "GraphQL",
+    img: graphql,
+    colorBadge: "#222",
+    colorEntry: "#734ead",
+  },
+  {
+    id: 2,
     name: "MongoDB",
     img: mongodb,
     colorBadge: "#d2d2d2",
@@ -177,6 +202,13 @@ export const databaseData = [
   },
 ];
 export const relevantData = [
+  {
+    id: 1,
+    name: "Docker",
+    img: docker,
+    colorBadge: "#fffff",
+    colorEntry: "#d6d6d6",
+  },
   {
     id: 1,
     name: "Git",
