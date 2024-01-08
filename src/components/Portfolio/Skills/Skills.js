@@ -154,9 +154,9 @@ const Skills = (props) => {
             <p className="colSubTitle">
               <FormattedMessage id="skill.subtitle6" />
             </p>
-            <p className="skillEntry subSkill">
+            {/* <p className="skillEntry subSkill">
               <FormattedMessage id="skill.subskill4" />
-            </p>
+            </p> */}
             <p className="skillEntry subSkill">
               <FormattedMessage id="skill.subskill7" />
             </p>
