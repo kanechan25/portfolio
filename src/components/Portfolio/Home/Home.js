@@ -33,7 +33,7 @@ const Home = (props) => {
           <iframe
             id="introduceVideo"
             className="introduceVideo"
-            src="https://www.youtube.com/embed/K1HJgS9wZB4"
+            src="https://www.youtube.com/embed/K1HJgS9wZB4?autoplay=0&mute=1&controls=1"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
