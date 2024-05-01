@@ -13,11 +13,11 @@
 //     },
 //   ],
 // };
-export const exprn2020 = {
+export const exprn2018 = {
   id: 2,
   company: "NDC Consulting",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ndc.png",
-  time: "Jun 2016 - Feb 2019",
+  time: "Jun 2016 - Feb 2018",
   exprn: [
     {
       project: "BIM CUBIC",
@@ -44,11 +44,11 @@ export const exprn2020 = {
     },
   ],
 };
-export const exprn2021 = {
+export const exprn2019 = {
   id: 3,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
-  time: "Mar 2019 - Aug 2019",
+  time: "Mar 2018 - Aug 2018",
   exprn: [
     {
       project: "BIM-5D Software",
@@ -78,11 +78,11 @@ export const exprn2021 = {
     },
   ],
 };
-export const exprn2022 = {
+export const exprn2021 = {
   id: 4,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
-  time: "Aug 2019 - Aug 2022",
+  time: "Aug 2018 - Aug 2021",
   exprn: [
     {
       project: "Health care app",
@@ -117,7 +117,7 @@ export const exprn2023 = {
   id: 5,
   company: "Technixo Co. Ltd",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/tnx2.png",
-  time: "Aug 2022 - Now",
+  time: "Aug 2021 - Now",
   exprn: [
     {
       project: "DeFi Apps",

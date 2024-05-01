@@ -1,67 +1,65 @@
 {
-    "home": {
-        "desc1": "私は 2016 年にコーディングを始めましたが、2019 年初めから正式に開発者になりました。",
-        "desc2": "私はフルスタックの Web 開発者でした。 現在、私はフロントエンド Web 開発者です。",
-        "desc3": "チームリーダーとして金融市場やその他の領域で直接経験を積んでいます。",
-        "desc4": "最も顕著な利点: 自己学習能力、高い適応性、および激しいプレッシャーの下での作業。",
-        "footer": "Kane Chan"
-    },
-    "project": {
-        "prjheader": "プロジェクト"
-    },
-    "skill": {
-        "skillheader": "スキル",
-        "title1": "言語",
-        "title2": "ツール/フレームワーク",
-        "title3": "その他",
-        "subtitle1": "プログラミング言語",
-        "subtitle2": "音声言語",
-        "subtitle3": "ウェブ開発",
-        "subtitle4": "データベース",
-        "subtitle5": "関連するスキル",
-        "subtitle6": "その他",
-        "subskill1": "ベトナム語",
-        "subskill2": "英語",
-        "subskill3": "日本語",
-        "subskill4": "MVC モデル",
-        "subskill5": "アルゴリズム",
-        "subskill7": "OOP"
-    },
-    "exprn": {
-        "exprnheader": "経験"
-    },
-    "about": {
-        "subtop": "Welcome to",
-        "homename": "KANE CHAN",
-        "homenamespan": "'S",
-        "subbot": "Portfolio",
-        "email": "メール",
-        "resume": "履歴書",
-        "aboutheader": "約",
-        "detail1": "フルスタック開発は私を大いに興奮させますが、バックエンドよりもフロントエンドの方が少し好きです。",
-        "detail2": "私は、サーバー側レンダリングとクライアント側レンダリングの両方を使用して RESTful API とレスポンシブなシングルページ アプリ (SPA) を構築した経験があります。",
-        "softheader": "ウェブ開発のソフトスキル",
-        "softitem1": "適応性",
-        "softitem2": "習いたがる",
-        "softitem3": "独学",
-        "softitem4": "創造性",
-        "softitem5": "視覚的思考",
-        "softitem6": "問題解決",
-        "softitem7": "リーダーシップ",
-        "softitem8": "時間管理",
-        "softitem9": "コミュニケーション",
-        "softitem10": "交渉",
-        "softitem11": "熱意",
-        "softitem12": "忍耐",
-        "thanks": "私のポートフォリオページに立ち寄ってくれてありがとう!"
-    },
-    "nav": {
-        "home": "家",
-        "project": "プロジェクト",
-        "skill": "スキル",
-        "exprn": "経験",
-        "about": "約"
-
-        
-    }
+  "home": {
+    "desc1": "私は 2016 年にコーディングを始めましたが、2018 年初めから正式に開発者になりました。",
+    "desc2": "私はフルスタックの Web 開発者でした。 現在、私はフロントエンド Web 開発者です。",
+    "desc3": "チームリーダーとして金融市場やその他の領域で直接経験を積んでいます。",
+    "desc4": "最も顕著な利点: 自己学習能力、高い適応性、および激しいプレッシャーの下での作業。",
+    "footer": "Kane Chan"
+  },
+  "project": {
+    "prjheader": "プロジェクト"
+  },
+  "skill": {
+    "skillheader": "スキル",
+    "title1": "言語",
+    "title2": "ツール/フレームワーク",
+    "title3": "その他",
+    "subtitle1": "プログラミング言語",
+    "subtitle2": "音声言語",
+    "subtitle3": "ウェブ開発",
+    "subtitle4": "データベース",
+    "subtitle5": "関連するスキル",
+    "subtitle6": "その他",
+    "subskill1": "ベトナム語",
+    "subskill2": "英語",
+    "subskill3": "日本語",
+    "subskill4": "MVC モデル",
+    "subskill5": "アルゴリズム",
+    "subskill7": "OOP"
+  },
+  "exprn": {
+    "exprnheader": "経験"
+  },
+  "about": {
+    "subtop": "Welcome to",
+    "homename": "KANE CHAN",
+    "homenamespan": "'S",
+    "subbot": "Portfolio",
+    "email": "メール",
+    "resume": "履歴書",
+    "aboutheader": "約",
+    "detail1": "フルスタック開発は私を大いに興奮させますが、バックエンドよりもフロントエンドの方が少し好きです。",
+    "detail2": "私は、サーバー側レンダリングとクライアント側レンダリングの両方を使用して RESTful API とレスポンシブなシングルページ アプリ (SPA) を構築した経験があります。",
+    "softheader": "ウェブ開発のソフトスキル",
+    "softitem1": "適応性",
+    "softitem2": "習いたがる",
+    "softitem3": "独学",
+    "softitem4": "創造性",
+    "softitem5": "視覚的思考",
+    "softitem6": "問題解決",
+    "softitem7": "リーダーシップ",
+    "softitem8": "時間管理",
+    "softitem9": "コミュニケーション",
+    "softitem10": "交渉",
+    "softitem11": "熱意",
+    "softitem12": "忍耐",
+    "thanks": "私のポートフォリオページに立ち寄ってくれてありがとう!"
+  },
+  "nav": {
+    "home": "家",
+    "project": "プロジェクト",
+    "skill": "スキル",
+    "exprn": "経験",
+    "about": "約"
+  }
 }
