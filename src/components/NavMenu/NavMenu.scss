@@ -1,135 +1,136 @@
-@import '../GlobalStyles/base.scss';
+@import "../GlobalStyles/base.scss";
 
 .nav-menu {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    z-index: 99;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 99;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .navigation {
-    width: 400px;
-    height: 60px;
+  width: fit-content;
+  padding: 0px 16px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--text);
+  margin-top: 40px;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: var(--text);
-    margin-top: 40px;
-    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px,
-        rgb(60 64 67 / 15%) 0px 2px 6px 2px;
-    ul {
-        display: flex;
-        width: 350px;
+    width: fit-content;
+    position: relative;
+    .nav-list {
+      position: relative;
+      list-style: none;
+      width: 70px;
+      height: 70px;
+      z-index: 1;
+      cursor: pointer;
+
+      .alink {
         position: relative;
-        .nav-list {
-            position: relative;
-            list-style: none;
-            width: 70px;
-            height: 70px;
-            z-index: 1;
-            cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
 
-            .alink {
-                position: relative;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                width: 100%;
-                text-align: center;
-                font-weight: 400;
-
-                .nav-icon {
-                    position: relative;
-                    display: block;
-                    line-height: 75px;
-                    font-size: 1.6rem;
-                    transition: 0.5s;
-                    color: var(--bgc);
-                }
-
-                .nav-text {
-                    position: absolute;
-                    font-weight: 600;
-                    font-size: 12px;
-                    transition: 0.5s;
-                    opacity: 0;
-                    letter-spacing: 0.5px;
-                    color: var(--bgc);
-                    transform: translateY(20px);
-                }
-            }
+        .nav-icon {
+          position: relative;
+          display: block;
+          line-height: 75px;
+          font-size: 1.6rem;
+          transition: 0.5s;
+          color: var(--bgc);
         }
 
-        .nav-list.active {
-            .alink {
-                .nav-icon {
-                    transform: translateY(-35px);
-                }
-
-                .nav-text {
-                    opacity: 1;
-                    transform: translateY(10px);
-                }
-            }
+        .nav-text {
+          position: absolute;
+          font-weight: 600;
+          font-size: 12px;
+          transition: 0.5s;
+          opacity: 0;
+          letter-spacing: 0.5px;
+          color: var(--bgc);
+          transform: translateY(20px);
         }
-
-        .nav-list:nth-child(1).active ~ .indicator {
-            transform: translateX(calc(70px * 0));
-        }
-
-        .nav-list:nth-child(2).active ~ .indicator {
-            transform: translateX(calc(70px * 1));
-        }
-
-        .nav-list:nth-child(3).active ~ .indicator {
-            transform: translateX(calc(70px * 2));
-        }
-
-        .nav-list:nth-child(4).active ~ .indicator {
-            transform: translateX(calc(70px * 3));
-        }
-
-        .nav-list:nth-child(5).active ~ .indicator {
-            transform: translateX(calc(70px * 4));
-        }
+      }
     }
 
-    .indicator {
-        position: absolute;
-        top: -50%;
-        width: 70px;
-        height: 70px;
-        background: var(--primary);
-        border-radius: 50%;
-        border: 6px solid var(--bgc);
+    .nav-list.active {
+      .alink {
+        .nav-icon {
+          transform: translateY(-35px);
+        }
+
+        .nav-text {
+          opacity: 1;
+          transform: translateY(10px);
+        }
+      }
     }
 
-    // .indicator::before {
-    //     content: '';
-    //     position: absolute;
-    //     top: 50%;
-    //     left: -22px;
-    //     width: 20px;
-    //     height: 20px;
-    //     background: transparent;
-    //     border-top-right-radius: 20px;
-    //     box-shadow: 1px -10px 0 0 var(--bgc);
-    // }
+    .nav-list:nth-child(1).active ~ .indicator {
+      transform: translateX(calc(70px * 0));
+    }
 
-    // .indicator::after {
-    //     content: '';
-    //     position: absolute;
-    //     top: 50%;
-    //     right: -22px;
-    //     width: 20px;
-    //     height: 20px;
-    //     background: transparent;
-    //     border-top-left-radius: 20px;
-    //     box-shadow: -1px -10px 0 0 var(--bgc);
-    // }
+    .nav-list:nth-child(2).active ~ .indicator {
+      transform: translateX(calc(70px * 1));
+    }
+
+    .nav-list:nth-child(3).active ~ .indicator {
+      transform: translateX(calc(70px * 2));
+    }
+
+    .nav-list:nth-child(4).active ~ .indicator {
+      transform: translateX(calc(70px * 3));
+    }
+
+    .nav-list:nth-child(5).active ~ .indicator {
+      transform: translateX(calc(70px * 4));
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: var(--primary);
+    border-radius: 50%;
+    border: 6px solid var(--bgc);
+  }
+
+  // .indicator::before {
+  //     content: '';
+  //     position: absolute;
+  //     top: 50%;
+  //     left: -22px;
+  //     width: 20px;
+  //     height: 20px;
+  //     background: transparent;
+  //     border-top-right-radius: 20px;
+  //     box-shadow: 1px -10px 0 0 var(--bgc);
+  // }
+
+  // .indicator::after {
+  //     content: '';
+  //     position: absolute;
+  //     top: 50%;
+  //     right: -22px;
+  //     width: 20px;
+  //     height: 20px;
+  //     background: transparent;
+  //     border-top-left-radius: 20px;
+  //     box-shadow: -1px -10px 0 0 var(--bgc);
+  // }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { FormattedMessage } from "react-intl";
-
+import "../About/About.scss";
 import "./Home.scss";
 import Aboutme from "./Aboutme/Aboutme";
 
@@ -12,14 +12,14 @@ const Home = (props) => {
   return (
     <div className="homeContainer container">
       <div className="row">
-        <div className="leftContainer col-md-6 col-12">
+        <div className="leftContainer col-md-12 col-12">
           <Aboutme welcome={true} portrait={avatar} />
           <div className="descContainer">
             <p>
               &#183; <FormattedMessage id="home.desc1" />
             </p>
             <p>
-              &#183; <FormattedMessage id="home.desc2" />
+              &#183; <FormattedMessage id="about.detail1" />
             </p>
             <p>
               &#183; <FormattedMessage id="home.desc3" />
@@ -29,7 +29,7 @@ const Home = (props) => {
             </p>
           </div>
         </div>
-        <div className="rightContainer col-md-6 col-12">
+        {/* <div className="rightContainer col-md-6 col-12">
           <iframe
             id="introduceVideo"
             className="introduceVideo"
@@ -39,6 +39,60 @@ const Home = (props) => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
+        </div> */}
+        <div id="about" className="aboutContainer container">
+          <div className="aboutContentContainer row">
+            <div className="detail-about">
+              <div className="soft-skills">
+                <div className="heading-soft-skill">
+                  <FormattedMessage id="about.softheader" />
+                </div>
+                <div className="container">
+                  <div className="row">
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem1" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem2" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem3" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem4" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem5" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem6" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem7" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem8" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem9" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem10" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem11" />
+                    </div>
+                    <div className="soft-item col-md-3 col-sm-4 col-6">
+                      <FormattedMessage id="about.softitem12" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="thank-you">
+              <FormattedMessage id="about.thanks" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
