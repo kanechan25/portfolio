@@ -8,6 +8,7 @@ import {
   exprn2019,
   exprn2021,
   exprn2023,
+  exprn2024,
   exprnFreelance,
 } from "./ExprnBoard/ExprnData";
 import "./Experience.scss";
@@ -47,6 +48,7 @@ const Experience = () => {
             <div className="footer-pole"></div>
           </div>
           <div className="main-board col-md-11">
+            <ExprnBoard data={exprn2024} />
             <ExprnBoard data={exprn2023} />
             <ExprnBoard data={exprn2021} />
             <ExprnBoard data={exprn2019} />

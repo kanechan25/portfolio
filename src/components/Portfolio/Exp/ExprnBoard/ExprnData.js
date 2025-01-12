@@ -82,7 +82,7 @@ export const exprn2021 = {
   id: 4,
   company: "T&T Design",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/ttd.png",
-  time: "Aug 2018 - Aug 2021",
+  time: "Aug 2018 - Feb 2021",
   exprn: [
     {
       project: "Health care app",
@@ -117,7 +117,7 @@ export const exprn2023 = {
   id: 5,
   company: "Technixo Co. Ltd",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/tnx2.png",
-  time: "Aug 2021 - Now",
+  time: "Feb 2021 - Apr 2023",
   exprn: [
     {
       project: "DeFi Apps",
@@ -129,20 +129,16 @@ export const exprn2023 = {
       ],
       referLink: [
         {
-          link: "https://pilot.futurx.com/dptp/trading/lite/USD-M/BTC/USD",
+          link: "https://futurx.com/",
           title: "Future DPTP 2.0",
         },
         {
-          link: "https://position.exchange/futures/USD-M/BTC/BUSD",
-          title: "Trading Coins App",
+          link: "https://position.exchange",
+          title: "Trading App",
         },
         {
-          link: "https://www.cattieswap.xyz/",
-          title: "Cattie DApp",
-        },
-        {
-          link: "https://frog-fellow-git-release-frog-fellow-positionex.vercel.app/frog-fellow",
-          title: "PEPE Coin Airdrop",
+          link: "https://app-testnet.ultrax.io/#/",
+          title: "Perpetual DEX",
         },
       ],
     },
@@ -163,8 +159,38 @@ export const exprn2023 = {
     },
   ],
 };
-export const exprnFreelance = {
+export const exprn2024 = {
   id: 6,
+  company: "NerdLabs Co. Ltd",
+  logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/nerdlabs.jpg",
+  time: "May 2023 - Now",
+  exprn: [
+    {
+      project: "DeFi Apps",
+      role: [
+        "FE leader, Front-end Web Developer: ",
+        "Be in charge of coding features, break down tasks and assign tasks among team members",
+        "Code optimization and refactoring and reviewing code for FE team members",
+      ],
+      referLink: [
+        {
+          link: "https://chromewebstore.google.com/detail/chainzoom/lfdjeckhgkbehgglpnigoleljndgcolf?hl=en",
+          title: "Degen Layer Tool on X",
+        },
+        {
+          link: "https://beta-mainnet.iloop.finance",
+          title: "Lending and Borrowing Platform",
+        },
+        {
+          link: "https://frontend-tnx-os-01-git-release-tnx-os-01-positionex.vercel.app/swap",
+          title: "Meme DApp",
+        },
+      ],
+    },
+  ],
+};
+export const exprnFreelance = {
+  id: 7,
   company: "Freelance",
   logo: "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/exprn/freelances.png",
   time: "Oct 2020 - Feb 2022",
