@@ -169,13 +169,14 @@ export const exprn2024 = {
       project: "DeFi Apps",
       role: [
         "FE leader, Front-end Web Developer: ",
-        "Be in charge of coding features, break down tasks and assign tasks among team members",
+        "Be in charge of coding core features",
+        "Break down tasks and assign tasks among team members",
         "Code optimization and refactoring and reviewing code for FE team members",
       ],
       referLink: [
         {
           link: "https://chromewebstore.google.com/detail/chainzoom/lfdjeckhgkbehgglpnigoleljndgcolf?hl=en",
-          title: "Degen Layer Tool on X",
+          title: "Degen Layer Extension on X",
         },
         {
           link: "https://beta-mainnet.iloop.finance",
