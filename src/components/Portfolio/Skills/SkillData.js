@@ -37,10 +37,10 @@ import docker from "../../../assets/img/skills/others/docker.png";
 export const languageData = [
   {
     id: 1,
-    name: "C#",
-    img: csharp,
+    name: "TypeScript",
+    img: ts,
     colorBadge: "#999",
-    colorEntry: "#60a5fa",
+    colorEntry: "#f2f2f2",
   },
   {
     id: 2,
@@ -51,10 +51,10 @@ export const languageData = [
   },
   {
     id: 3,
-    name: "TypeScript",
-    img: ts,
+    name: "C#",
+    img: csharp,
     colorBadge: "#999",
-    colorEntry: "#f2f2f2",
+    colorEntry: "#60a5fa",
   },
   {
     id: 4,
@@ -237,20 +237,20 @@ export const relevantData = [
     colorBadge: "#d3d3d3",
     colorEntry: "#f5c954",
   },
-  {
-    id: 5,
-    name: "VS Code",
-    img: vscode,
-    colorBadge: "#d3d3d3",
-    colorEntry: "#45aff3",
-  },
-  {
-    id: 6,
-    name: "Visual Studio",
-    img: visualstudio,
-    colorBadge: "#d3d3d3",
-    colorEntry: "#0173c1",
-  },
+  // {
+  //   id: 5,
+  //   name: "VS Code",
+  //   img: vscode,
+  //   colorBadge: "#d3d3d3",
+  //   colorEntry: "#45aff3",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Visual Studio",
+  //   img: visualstudio,
+  //   colorBadge: "#d3d3d3",
+  //   colorEntry: "#0173c1",
+  // },
   {
     id: 7,
     name: "Postman",

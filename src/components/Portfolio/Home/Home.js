@@ -6,8 +6,7 @@ import "./Home.scss";
 import Aboutme from "./Aboutme/Aboutme";
 
 const Home = (props) => {
-  const avatar =
-    "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/about/avatars.jpg";
+  const avatar = "https://raw.githubusercontent.com/kanechan25/portfolio/main/src/assets/img/about/avatars.jpg";
 
   return (
     <div className="homeContainer container">
@@ -19,7 +18,7 @@ const Home = (props) => {
               &#183; <FormattedMessage id="home.desc1" />
             </p>
             <p>
-              &#183; <FormattedMessage id="about.detail1" />
+              &#183; <FormattedMessage id="home.desc2" />
             </p>
             <p>
               &#183; <FormattedMessage id="home.desc3" />

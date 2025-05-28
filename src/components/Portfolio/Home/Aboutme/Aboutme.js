@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import linkedin from "../../../../assets/img/media/linkedin.svg";
 import github from "../../../../assets/img/media/github.svg";
 import youtube from "../../../../assets/img/media/youtube.svg";
-import ktResume from "../../../../files/kane_chan_web3.pdf";
+import ktResume from "../../../../files/kane_FE_FS_web.pdf";
 import "./Aboutme.scss";
 import { FormattedMessage } from "react-intl";
 
@@ -31,37 +31,16 @@ const Aboutme = ({ welcome, portrait }, props) => {
             </span>
           </a>
           <div className="media">
-            <a
-              href="https://github.com/kanechan25"
-              target="__blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com/kanechan25" target="__blank" rel="noopener noreferrer">
               <img className="mediaIcon github" src={github} alt="github" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/khoatran2425/"
-              target="__blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="mediaIcon linkedIn"
-                src={linkedin}
-                alt="portrait"
-              />
+            <a href="https://www.linkedin.com/in/khoatran2425/" target="__blank" rel="noopener noreferrer">
+              <img className="mediaIcon linkedIn" src={linkedin} alt="portrait" />
             </a>
-            <a
-              href="https://www.youtube.com/c/CE2Dev"
-              target="__blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.youtube.com/c/CE2Dev" target="__blank" rel="noopener noreferrer">
               <img className="mediaIcon youtube" src={youtube} alt="youtube" />
             </a>
-            <Link
-              className="resume"
-              to={ktResume}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link className="resume" to={ktResume} target="_blank" rel="noopener noreferrer">
               <FormattedMessage id="about.resume" />
             </Link>
           </div>

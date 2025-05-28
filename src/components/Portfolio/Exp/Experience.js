@@ -50,7 +50,7 @@ const Experience = () => {
           <div className="main-board col-md-11">
             <ExprnBoard data={exprn2024} />
             <ExprnBoard data={exprn2023} />
-            <ExprnBoard data={exprn2021} />
+            {/* <ExprnBoard data={exprn2021} /> */}
             <ExprnBoard data={exprn2019} />
             <ExprnBoard data={exprn2018} />
             {/* <ExprnBoard data={exprn2016} /> */}

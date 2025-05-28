@@ -35,14 +35,6 @@ function NavMenu({ slug }) {
             </Link>
           </li>
           <li className="nav-list">
-            <Link to={routes.PROJECTS} className="alink">
-              <span className="nav-icon">
-                <i className="fas fa-tasks-alt"></i>
-              </span>
-              <span className="nav-text">Projects</span>
-            </Link>
-          </li>
-          <li className="nav-list">
             <Link to={routes.SKILLS} className="alink">
               <span className="nav-icon">
                 <i className="fas fa-tools"></i>
@@ -56,6 +48,14 @@ function NavMenu({ slug }) {
                 <i className="fas fa-briefcase"></i>
               </span>
               <span className="nav-text">Experience</span>
+            </Link>
+          </li>
+          <li className="nav-list">
+            <Link to={routes.PROJECTS} className="alink">
+              <span className="nav-icon">
+                <i className="fas fa-tasks-alt"></i>
+              </span>
+              <span className="nav-text">Projects</span>
             </Link>
           </li>
           {/* <li className="nav-list">
