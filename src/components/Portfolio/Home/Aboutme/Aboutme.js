@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import linkedin from "../../../../assets/img/media/linkedin.svg";
 import github from "../../../../assets/img/media/github.svg";
 import youtube from "../../../../assets/img/media/youtube.svg";
-import ktResume from "../../../../files/kane_FE_FS_web.pdf";
+import ktResume from "../../../../files/kane_FS_web3.pdf";
 import "./Aboutme.scss";
 import { FormattedMessage } from "react-intl";
 

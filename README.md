@@ -1,4 +1,4 @@
-# Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" height="25px"> A Full-stack Web Developer
+# Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" height="25px"> A Senior Frontend-focused Fullstack Web Engineer
 
 ## <a href="https://khoatran25.vercel.app/" target="_blank" rel="noopener noreferrer" >Click here to go to my portfolio website</a>
 
